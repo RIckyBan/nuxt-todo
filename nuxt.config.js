@@ -2,6 +2,10 @@ const webpack = require('webpack')
 
 
 export default {
+  env: {
+    FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID
+  },
+
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
